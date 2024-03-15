@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "allowUmdGlobalAccess": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es2016",
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "rootDir": "src",
+    "outDir": "out",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./src/@types", "./node_modules/@types"]
+  },
+  "include": ["src/**/*"]
+}
